@@ -84,6 +84,7 @@ public class StreamCipher {
 		}
 		return 0;
 	}
+	
 	public static String ascii2str(String str){
 		String retVal = "";
 		for(int i=0; i<=str.length()-2;i+=2){
